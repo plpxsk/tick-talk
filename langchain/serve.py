@@ -13,7 +13,7 @@ prompt_template = ChatPromptTemplate.from_messages([
     ('user', '{text}')
 ])
 
-model = ChatMistralAI()
+model = ChatMistralAI(model="mistral-small-2312")
 
 # 3. Create parser
 parser = StrOutputParser()
