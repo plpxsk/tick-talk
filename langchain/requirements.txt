@@ -1,0 +1,4 @@
+langchain
+langchain-mistralai
+langserve[all]
+pydantic==1.10.13
