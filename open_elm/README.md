@@ -16,9 +16,9 @@ Simple local app to explore `temperature` in GPT output.
 [1] Here, `model_1_1B_4bit` contains `config.json`, `tokenizer.model`,
 `weights.safetensors`. You'll need to **download these**
 
-# Determinism?
+# Deterministic?
 
-For temperature > 0, the outputs can vary. You can set a random seed by
+For temperature > 0, the outputs can vary. You can set a fixed random seed by
 changing to `key=True` in the signature for `sample()` in `inference.py`, as
 follows:
 
